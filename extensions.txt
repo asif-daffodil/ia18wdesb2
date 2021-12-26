@@ -1,0 +1,7 @@
+Auto Rename Tag
+HTML End Tag Labels
+IntelliSense for CSS class names in HTML
+Live Sass Compiler
+Live Server
+Prettier - Code formatter
+vscode-icons
