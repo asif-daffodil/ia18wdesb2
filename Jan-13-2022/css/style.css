@@ -1,0 +1,55 @@
+.rakibKhan {
+    color: red;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana;
+}
+
+.mrRakib {
+    width: 500px;
+    border: 5px solid black;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    /* border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: black; */
+    /* border-left: 5px solid black; */
+    /* border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: black; */
+    /* border-right: 5px solid black; */
+    /* border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: black; */
+    /* border-bottom: 5px solid black; */
+    /* border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: black; */
+    /* border-top: 5px solid black; */
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+    /* padding: 30px 20px 30px 20px; */
+    /* padding: 30px 20px; */
+    /* padding: 20px 30px 30px; */
+    padding: 30px;
+    box-sizing: border-box;
+    /* margin: 20px 30px 40px 50px;
+    margin: 20px 30px 40px;
+    margin: 20px 30px; */
+    /* margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px; */
+    margin: 0 auto;
+}
