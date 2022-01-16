@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rakib {
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    display: flex;
+}
+
+.sakib {
+    width: 300px;
+    height: 200px;
+    background: green;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.akib {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+}
+
+.sakib:hover {
+    background: white;
+}
+
+.p1 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    background: green;
+}
+
+.p2 {
+    width: 220px;
+    height: 160px;
+    background: orange;
+    margin: auto;
+    clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+    display: flex;
+}
+
+.nila {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: blue;
+    overflow: hidden;
+}
+
+.mishu {
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+
+.hello {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.haha {
+    width: 100%;
+    background: lightblue;
+    height: 33%;
+}
+
+.hoho {
+    width: 100%;
+    background: white;
+    height: 34%;
+    display: flex;
+}
+
+.hoho > img {
+    height: 90%;
+    margin: auto;
+}
