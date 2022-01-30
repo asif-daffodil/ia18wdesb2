@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: rakib;
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: nila;
+  src: url("../fonts/Sedgwick_Ave/SedgwickAve-Regular.ttf");
+}
+
+.pera1 {
+  width: 350px;
+  padding: 20px;
+  font-family: rakib;
+  display: inline-block;
+  line-height: 24px;
+}
+
+.pera2 {
+  width: 350px;
+  padding: 20px;
+  font-family: nila;
+  display: inline-block;
+  font-weight: 300;
+  font-style: italic;
+}

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: blue;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+header::before {
+  content: "Hi, ";
+}
+
+header::after {
+  content: "...";
+}
+
+nav {
+  color: red;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+nav::before {
+  content: open-quote;
+}
+
+nav::after {
+  content: close-quote;
+}
+
+aside {
+  color: green;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+aside::before {
+  content: attr(bf);
+}
+
+aside::after {
+  content: attr(gf);
+}
+
+main {
+  width: 200px;
+  height: 200px;
+  background: hotpink;
+  margin: auto;
+  transition: 1s;
+}
+
+main:hover {
+  /* transform: scale(2, 1.5); */
+  /* transform: translateY(-50px); */
+  transform: rotate(180deg);
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.pain {
+  width: 250px;
+  height: 350px;
+  margin: auto;
+  position: relative;
+}
+
+.pain::before,
+.pain::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  backface-visibility: hidden;
+  font-size: 32px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-shadow: 1px 1px #000;
+}
+
+.pain::before {
+  content: "Ananta Jalil";
+  background: url("../images/jalil.jpg") no-repeat center / cover;
+  transform: rotateY(180deg);
+}
+
+.pain::after {
+  content: "Mahfuzur Rahman";
+  background: url("../images/mahfuz.png") no-repeat center / cover;
+  transform: rotateY(0deg);
+}
+
+.pain:hover::before {
+  transform: rotateY(0deg);
+}
+
+.pain:hover::after {
+  transform: rotateY(180deg);
+}

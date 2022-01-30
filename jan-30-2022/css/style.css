@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.main {
+  width: 900px;
+  height: 450px;
+  background: #ccc;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr) 2fr;
+  grid-gap: 5px;
+}
+
+.main > div {
+  background: red;
+}
