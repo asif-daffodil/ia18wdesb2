@@ -23,3 +23,59 @@
 .main > div {
   background: red;
 }
+
+.pain {
+  background: #ccc;
+  margin: auto;
+  width: 900px;
+  height: 450px;
+  color: #fff;
+  font-size: 24px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: "d1 d1 d3 d4" "d5 d6 d7 d7" "d9 d9 d11 d12" "d2 d8 d10 d10";
+}
+
+.pain > div {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d1 {
+  grid-area: d1;
+}
+.d2 {
+  grid-area: d2;
+}
+.d3 {
+  grid-area: d3;
+}
+.d4 {
+  grid-area: d4;
+}
+.d5 {
+  grid-area: d5;
+}
+.d6 {
+  grid-area: d6;
+}
+.d7 {
+  grid-area: d7;
+}
+.d8 {
+  grid-area: d8;
+}
+.d9 {
+  grid-area: d9;
+}
+.d10 {
+  grid-area: d10;
+}
+.d11 {
+  grid-area: d11;
+}
+.d12 {
+  grid-area: d12;
+}
