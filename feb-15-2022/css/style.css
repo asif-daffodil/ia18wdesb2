@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mishu, .dhaka {
+  width: 600px;
+  height: 600px;
+  background: hotpink;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mishu > .nahida, .dhaka > .nahida {
+  width: 400px;
+  height: 400px;
+  background: hotpink;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mishu > .nahida > .eva, .dhaka > .nahida > .eva {
+  width: 200px;
+  height: 200px;
+  background: hotpink;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dhaka {
+  background: cornflowerblue;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

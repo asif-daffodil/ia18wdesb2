@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$headerBG: hotpink;
+@mixin mne($w, $h) {
+  width: $w;
+  height: $h;
+  background: $headerBG;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #000;
+  display: flex;
+}
+
+.mishu {
+  @include mne(600px, 600px);
+  > .nahida {
+    @include mne(400px, 400px);
+    > .eva {
+      @include mne(200px, 200px);
+    }
+  }
+}
+
+.dhaka {
+  @extend .mishu;
+  background: cornflowerblue;
+  margin-top: 20px;
+}
