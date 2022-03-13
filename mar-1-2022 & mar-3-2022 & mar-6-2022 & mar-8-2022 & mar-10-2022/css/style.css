@@ -1,0 +1,25 @@
+.nila-btn {
+  color: #fff;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.btbc {
+  background: rgba(0, 0, 0, 0.6);
+}
+/*# sourceMappingURL=style.css.map */

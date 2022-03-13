@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Co.</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/favicon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- nav bar start -->
+      <div class="container fixed-top mx-auto nila" id="navRow">
+        <div class="col-md-12 btbc">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">IT Co.</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Nila
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown-menu-dark dropdown-menu-end"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Change Password</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Log out</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-info"
+                      placeholder="Username"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                    <span
+                      class="input-group-text bg-info border-info"
+                      id="basic-addon1"
+                    >
+                      <img
+                        src="./images/search.png"
+                        alt=""
+                        class="img-fluid"
+                        style="width: 16px"
+                      />
+                    </span>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- nav bar end -->
+
+      <!-- slider start -->
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/slide1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/slide2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/slide3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/slide4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- slider end -->
+
+      <!-- our team start -->
+      <div class="row">
+        <div class="col-md-12 text-center display-4 py-4">Our Team</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="text-center border p-3 rounded bg-light">
+            <img
+              src="./images/p1.jpg"
+              alt=""
+              class="img-fluid img-thumbnail rounded-circle p-2 shadow w-75"
+            />
+            <h2 class="text-uppercase">
+              Harun Or Rashid
+              <span class="d-block fs-5">(Our CEO)</span>
+            </h2>
+            <p class="my-3 text-secondary fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              minus aliquid cumque vitae voluptatibus suscipit omnis, minima vel
+              quia quas id incidunt doloremque temporibus totam praesentium
+              quisquam ut? Error, rerum!
+            </p>
+            <button
+              class="btn btn-primary btn-sm px-4 py-2 btn-outline-dark text-white border-0"
+              data-bs-toggle="modal"
+              data-bs-target="#hor"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center border p-3 rounded bg-light">
+            <img
+              src="./images/p2.jpg"
+              alt=""
+              class="img-fluid img-thumbnail rounded-circle p-2 shadow w-75"
+            />
+            <h2 class="text-uppercase">
+              Nahida Nila
+              <span class="d-block fs-5">(Our CEO)</span>
+            </h2>
+            <p class="my-3 text-secondary fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              minus aliquid cumque vitae voluptatibus suscipit omnis, minima vel
+              quia quas id incidunt doloremque temporibus totam praesentium
+              quisquam ut? Error, rerum!
+            </p>
+            <button
+              class="btn btn-primary btn-sm px-4 py-2 btn-outline-dark text-white border-0"
+              data-bs-toggle="modal"
+              data-bs-target="#nila"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center border p-3 rounded bg-light">
+            <img
+              src="./images/p3.jpg"
+              alt=""
+              class="img-fluid img-thumbnail rounded-circle p-2 shadow w-75"
+            />
+            <h2 class="text-uppercase">
+              Rakibul Islam
+              <span class="d-block fs-5">(Our CEO)</span>
+            </h2>
+            <p class="my-3 text-secondary fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              minus aliquid cumque vitae voluptatibus suscipit omnis, minima vel
+              quia quas id incidunt doloremque temporibus totam praesentium
+              quisquam ut? Error, rerum!
+            </p>
+            <button
+              class="btn btn-primary btn-sm px-4 py-2 btn-outline-dark text-white border-0"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- our team end -->
+
+      <!-- gap start -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <hr />
+        </div>
+      </div>
+      <!-- gap end -->
+
+      <!-- our executive start -->
+      <div class="row">
+        <div class="col-md-6 d-none d-sm-block">
+          <div class="row">
+            <!-- executive title start -->
+            <div class="col-md-12 display-4 py-4">Our Executives</div>
+            <!-- executive title end -->
+            <div class="col-md-12">
+              <table class="table table-dark table-striped table-hover">
+                <tr>
+                  <th>S.N.</th>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>City</th>
+                </tr>
+                <tr>
+                  <td>01</td>
+                  <td>Misu Akter</td>
+                  <td>Sinior Executive</td>
+                  <td>Netrokona</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>Rakib Bhuiyan</td>
+                  <td>Executive</td>
+                  <td>Narayangonj</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>Sadik Saad</td>
+                  <td>Junior Executive</td>
+                  <td>Shirajganj</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>Eva Tudu</td>
+                  <td>Assistant Executive</td>
+                  <td>Nowga</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- section message start -->
+          <div class="row">
+            <div class="col-md-12 display-4 py-4">Our Skills</div>
+          </div>
+          <!-- section message end -->
+          <!-- progress bar start -->
+          <div class="row">
+            <div class="col-md-12">
+              <!-- html skills start -->
+              HTML
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                  style="width: 95%"
+                >
+                  95%
+                </div>
+              </div>
+              <!-- html skills end -->
+              <!-- css skills start -->
+              CSS
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                  style="width: 85%"
+                >
+                  85%
+                </div>
+              </div>
+              <!-- css skills end -->
+              <!-- bootstrap skills start -->
+              Bootstrap
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-dark progress-bar-striped progress-bar-animated"
+                  style="width: 76%"
+                >
+                  76%
+                </div>
+              </div>
+              <!-- bootstrap skills end -->
+              <!-- JavaScript skills start -->
+              JavaScript
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                  style="width: 52%"
+                >
+                  52%
+                </div>
+              </div>
+              <!-- JavaScript skills end -->
+              <!-- JavaScript skills start -->
+              PHP
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                  style="width: 30%"
+                >
+                  30%
+                </div>
+              </div>
+              <!-- JavaScript skills end -->
+            </div>
+          </div>
+          <!-- progress bar end -->
+        </div>
+      </div>
+
+      <!-- our executive end -->
+
+      <!-- gap start -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <hr />
+        </div>
+      </div>
+      <!-- gap end -->
+
+      <!-- out client start -->
+      <div class="row">
+        <div class="col-md-12 text-center display-4 py-4">Our Clients</div>
+      </div>
+      <div class="row g-4">
+        <!-- card-1 -->
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/p1.jpg" alt="" class="card-img-top" />
+              <span class="card-title fs-1">Mr. Murad</span>
+              <span class="card-subtitle fs-5">(Chairman)</span>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action">Takla</li>
+                <li class="list-group-item list-group-item-action">
+                  Exe Minister
+                </li>
+                <li class="list-group-item list-group-item-action">Old Man</li>
+                <li class="list-group-item list-group-item-action">
+                  Virul Public
+                </li>
+                <li class="list-group-item list-group-item-action">
+                  Nothy Boy
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary d-block w-100">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card-2 -->
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/p2.jpg" alt="" class="card-img-top" />
+              <span class="card-title fs-1">Ms. Momota</span>
+              <span class="card-subtitle fs-5">(CEO)</span>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action">Takla</li>
+                <li class="list-group-item list-group-item-action">
+                  Exe Minister
+                </li>
+                <li class="list-group-item list-group-item-action">Old Man</li>
+                <li class="list-group-item list-group-item-action">
+                  Virul Public
+                </li>
+                <li class="list-group-item list-group-item-action">
+                  Nothy Boy
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary d-block w-100">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card-3 -->
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/p3.jpg" alt="" class="card-img-top" />
+              <span class="card-title fs-1">Joo Baiden</span>
+              <span class="card-subtitle fs-5">(Owner)</span>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action">Takla</li>
+                <li class="list-group-item list-group-item-action">
+                  Exe Minister
+                </li>
+                <li class="list-group-item list-group-item-action">Old Man</li>
+                <li class="list-group-item list-group-item-action">
+                  Virul Public
+                </li>
+                <li class="list-group-item list-group-item-action">
+                  Nothy Boy
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary d-block w-100">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- out client end -->
+
+      <!-- gap start -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <hr />
+        </div>
+      </div>
+      <!-- gap end -->
+
+      <!-- messeges start -->
+      <div class="row">
+        <div class="col-md-12 text-center display-4 py-4">Messages</div>
+        <!-- message from vladimir putin -->
+        <div class="col-md-12">
+          <div class="card p-4">
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="./images/putin.png"
+                  alt=""
+                  class="img-fluid img-thumbnail rounded"
+                />
+              </div>
+              <div class="col-md-8">
+                <h2 class="h2 d-inline-block border-bottom pb-2">
+                  Mr. Vladimir Putin
+                  <span class="fs-6 d-block fw-lighter text-end"
+                    >(Our President)</span
+                  >
+                </h2>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Numquam illo odio voluptas harum aliquam odit placeat iure
+                  eveniet quod dolorem. Quis, placeat vel. Officiis aspernatur
+                  laboriosam, harum molestias aut quos laudantium eligendi
+                  maiores. Mollitia modi, nihil nostrum enim saepe delectus
+                  quidem possimus doloremque quis, itaque ullam suscipit
+                  repudiandae. Aliquam, iste!
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Numquam illo odio voluptas harum aliquam odit placeat iure
+                  eveniet quod dolorem. Quis, placeat vel. Officiis aspernatur
+                  laboriosam, harum molestias aut quos laudantium eligendi
+                  maiores. Mollitia modi, nihil nostrum enim saepe delectus
+                  quidem possimus doloremque quis, itaque ullam suscipit
+                  repudiandae. Aliquam, iste!
+                </p>
+                <hr />
+                <a href="" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- message from obaidul kader -->
+        <div class="col-md-12 mt-4">
+          <div class="card p-4">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="h2 d-inline-block border-bottom pb-2">
+                  Obaidul Quader
+                  <span class="fs-6 d-block fw-lighter text-end"
+                    >(Our Minister)</span
+                  >
+                </h2>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Numquam illo odio voluptas harum aliquam odit placeat iure
+                  eveniet quod dolorem. Quis, placeat vel. Officiis aspernatur
+                  laboriosam, harum molestias aut quos laudantium eligendi
+                  maiores. Mollitia modi, nihil nostrum enim saepe delectus
+                  quidem possimus doloremque quis, itaque ullam suscipit
+                  repudiandae. Aliquam, iste!
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Numquam illo odio voluptas harum aliquam odit placeat iure
+                  eveniet quod dolorem. Quis, placeat vel. Officiis aspernatur
+                  laboriosam, harum molestias aut quos laudantium eligendi
+                  maiores. Mollitia modi, nihil nostrum enim saepe delectus
+                  quidem possimus doloremque quis, itaque ullam suscipit
+                  repudiandae. Aliquam, iste!
+                </p>
+                <hr />
+                <a href="" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="./images/obaidul.jpg"
+                  alt=""
+                  class="img-fluid img-thumbnail rounded"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- messeges end -->
+
+      <!-- gap start -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <hr />
+        </div>
+      </div>
+      <!-- gap end -->
+
+      <!-- alert start -->
+      <div class="row">
+        <div class="col-md-12 text-center display-4 py-4">Alert Messages</div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 my-0 mt-4 mt-md-0 py-0 py-md-4 px-4">
+          <div class="alert alert-primary alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            facere dolore consequuntur eligendi sunt numquam voluptatum impedit
+            nulla alias, commodi assumenda unde? Id alias distinctio minima
+            error beatae commodi voluptates.
+          </div>
+        </div>
+        <div class="col-md-4 my-0 py-0 py-md-4 px-4">
+          <div class="alert alert-success alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            facere dolore consequuntur eligendi sunt numquam voluptatum impedit
+            nulla alias, commodi assumenda unde? Id alias distinctio minima
+            error beatae commodi voluptates.
+          </div>
+        </div>
+        <div class="col-md-4 my-0 py-0 py-md-4 px-4">
+          <div class="alert alert-danger alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            facere dolore consequuntur eligendi sunt numquam voluptatum impedit
+            nulla alias, commodi assumenda unde? Id alias distinctio minima
+            error beatae commodi voluptates.
+          </div>
+        </div>
+      </div>
+      <!-- alert end -->
+      <!-- gap start -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <hr />
+        </div>
+      </div>
+      <!-- gap end -->
+      <div class="row">
+        <div class="col-md-6">
+          <!-- contact title start -->
+          <div class="row">
+            <div class="col-md-12 text-center display-4 py-4">Contact US</div>
+          </div>
+          <!-- contact title end -->
+          <!-- contact from start -->
+          <div class="row">
+            <div class="col-md-12">
+              <form action="">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 border-bottom shadow-none"
+                    placeholder="Your Name"
+                  />
+                  <label for="">Your Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 border-bottom shadow-none"
+                    placeholder="Your Email"
+                  />
+                  <label for="">Your Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control border-0 border-bottom shadow-none"
+                    placeholder="Your Message"
+                    style="min-height: 150px"
+                  ></textarea>
+                  <label for="">Your Message</label>
+                </div>
+                <input type="submit" class="btn btn-primary btn-lg px-5" />
+              </form>
+            </div>
+          </div>
+          <!-- contact from end -->
+        </div>
+        <div class="col-md-6">
+          <!-- faq title start -->
+          <div class="row">
+            <div class="col-md-12 text-center display-4 py-4">F.A.Q</div>
+          </div>
+          <!-- faq title end -->
+          <!-- accordion start -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-2 border">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button collapsed shadow-none bg-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Will I get pixel perfect design ? ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, You will get a pixel perfect and fresh design.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-2 border">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed shadow-none bg-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Are you available to do convert the PSD with responsive
+                      design ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">Yes, I am available.</div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-2 border">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed shadow-none bg-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Can we communicate on your email/contact/skype for batter
+                      communication?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Sorry, this is totally against Fiverr TOS! All
+                      communication with the client is to be done in writing via
+                      the Fiverr message board. All payment is to be made via
+                      Fiverr.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion end -->
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark w-100 mt-5">
+      <div class="container text-light">
+        <div class="row">
+          <div class="col-md-3 d-none d-md-block py-2 py-md-5">
+            <h2 class="mb-4 text-decoration-underline">Gallery</h2>
+            <img
+              src="./images/p1.jpg"
+              alt=""
+              style="height: 80px"
+              class="d-inline-block mr-2"
+            />
+            <img
+              src="./images/p2.jpg"
+              alt=""
+              style="height: 80px"
+              class="d-inline-block mr-2"
+            />
+            <img
+              src="./images/p3.jpg"
+              alt=""
+              style="height: 80px"
+              class="d-inline-block mr-2"
+            />
+            <img
+              src="./images/obaidul.jpg"
+              alt=""
+              style="height: 80px"
+              class="d-inline-block mr-2"
+            />
+            <img
+              src="./images/putin.png"
+              alt=""
+              style="height: 80px"
+              class="d-inline-block mr-2"
+            />
+          </div>
+          <div class="col-md-3 py-5 d-none d-md-block">
+            <h2 class="mb-4 text-decoration-underline">Page</h2>
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Our Team</a
+            >
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Our Clients</a
+            >
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Messages</a
+            >
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Our Skills</a
+            >
+          </div>
+          <div class="col-md-3 py-2 py-md-5">
+            <h2 class="mb-4 text-decoration-underline">Contact us</h2>
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Mobile: 01955517560</a
+            >
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Phone: 028628390</a
+            >
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Email: abir@dipti.com.bd</a
+            >
+            <a href="" class="text-white d-block text-decoration-none mb-3"
+              >Address : 9 Sher-E-Bangla Road, Hazaribagh, Dhaka-1209</a
+            >
+          </div>
+          <div class="col-md-3 py-2 py-md-5">
+            <h2 class="mb-4 text-decoration-underline">Map Location</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8856393451238!2d90.37664211445589!3d23.751457194654012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b92533c3528f%3A0xe6b8c0e0676b8089!2sDaffodil%20International%20Professional%20Training%20Institute%20(DIPTI).!5e0!3m2!1sen!2sbd!4v1646546433468!5m2!1sen!2sbd"
+              width="100%"
+              height="auto"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 bg-black text-white text-center fw-lighter py-4">
+        Copyright &copy; | Asif Abir | 20225 | All Right Reserved
+      </div>
+    </footer>
+
+    <!-- HARUN OR RASHID modal start -->
+    <div class="modal fade" id="hor">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h2 class="fw-lighter">HARUN OR RASHID</h2>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed
+            mollitia eius rerum soluta, temporibus fugit explicabo nam beatae
+            repellat voluptas provident quam culpa aspernatur expedita,
+            laudantium tempora eaque ipsa error perferendis ducimus. Illo itaque
+            mollitia minima placeat, culpa porro tempore deserunt autem, id,
+            aspernatur soluta in accusamus quidem perferendis.
+          </div>
+          <div class="modal-footer">
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HARUN OR RASHID modal end -->
+
+    <!-- nila modal start -->
+    <div class="modal fade" id="nila">
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header alert-danger">
+            <h2 class="fw-lighter">NAHIDA NILA</h2>
+            <button class="btn-close nila-btn" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed
+            mollitia eius rerum soluta, temporibus fugit explicabo nam beatae
+            repellat voluptas provident quam culpa aspernatur expedita,
+            laudantium tempora eaque ipsa error perferendis ducimus. Illo itaque
+            mollitia minima placeat, culpa porro tempore deserunt autem, id,
+            aspernatur soluta in accusamus quidem perferendis.
+          </div>
+          <div class="modal-footer">
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nila modal end -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/myjs.js"></script>
+  </body>
+</html>
